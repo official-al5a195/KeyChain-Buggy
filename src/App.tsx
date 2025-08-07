@@ -2,20 +2,20 @@ import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 
 // Authentication Components
-import { PasscodeEntry } from './components/PasscodeEntry';
-import { UserLogin } from './components/UserLogin';
+import { PasscodeEntry } from '../components/PasscodeEntry';
+import { UserLogin } from '../components/UserLogin';
 
 // Main Feature Components
-import { AffirmationsSection } from './components/AffirmationsSection';
-import { SpotifySection } from './components/SpotifySection';
-import { KoalaSection } from './components/KoalaSection';
-import { HeartGameSection } from './components/HeartGameSection';
-import { DiarySection } from './components/DiarySection';
-import { DateIdeasSection } from './components/DateIdeasSection';
+import { AffirmationsSection } from '../components/AffirmationsSection';
+import { SpotifySection } from '../components/SpotifySection';
+import { KoalaSection } from '../components/KoalaSection';
+import { HeartGameSection } from '../components/HeartGameSection';
+import { DiarySection } from '../components/DiarySection';
+import { DateIdeasSection } from '../components/DateIdeasSection';
 
 // System Components
-import { GardenNavigation } from './components/GardenNavigation';
-import { NotificationSystem } from './components/NotificationSystem';
+import { GardenNavigation } from '../components/GardenNavigation';
+import { NotificationSystem } from '../components/NotificationSystem';
 
 interface UserProfile {
   id: string;
