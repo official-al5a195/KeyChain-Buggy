@@ -10,7 +10,7 @@ export default defineConfig({
       "@": resolve(__dirname, "./"),
     },
   },
-  base: '/enchanted-love-garden/',
+  base: '/KeyChain-Buggy/',
   build: {
     outDir: 'dist',
     assetsDir: 'assets',
